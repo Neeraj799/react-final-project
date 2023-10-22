@@ -1,9 +1,9 @@
 import React from "react";
 // import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
-import Dashboard from "./Components/Dashboard";
+//import Dashboard from "./Components/Dashboard";
 // import Product from "./Components/Product";
 // import Account from "./Components/Account";
-// import Login from "./Components/Login";
+import Login from "./Components/Login";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path="/login" element={<Login/>}/>
       </Routes>
     </Router> */}
-    <Dashboard/>
+    <Login/>
     </>
   )
 }
