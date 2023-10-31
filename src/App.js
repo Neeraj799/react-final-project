@@ -53,7 +53,7 @@ class App extends Component {
         <BrowserRouter>
           <Topbar />
           <Switch>
-            <PrivateRoute
+            <Route
               exact
               path="/"
               render={() =>
